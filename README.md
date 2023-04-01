@@ -1,26 +1,23 @@
 # X-Kiddy
-##
-#
+
+
+		*PROJECT INCOMPLETE*
+
+
 ======> Description:
- Complete Exploitation Framework.
-  * Stage 1: Dork
- 	module to 'assist' in creating list for target allocation [etc:dorklist]
- 	- Extract keywords from cve templates
- 	- User Input Wordlist
- 	- DorkMaker
+ 	Complete Kiddy Exploitation Framework.
+  
  	
-  * Stage 2: Target
-	module to 'aquire' IP's, Domains, URL's using third party tools (FREE API REQUIRED)
+  * Stage 1: Target	*> API REQUIRED [free] <*
 	- Shodan
 	- Zoomeye
 	- Censys
 		
-  * Stage 3: Scan  
- 	module to scan target(s) for possible exploitation using Nuclei
-	- Nuclei Scanning
+  * Stage 2: Scan  
+ 	- Nuclei Scanning
 	- Results Database
  	 	
-  * Stage 4: Exploit
+  * Stage 3: Exploit
 
 
 ======> PreReq's:
@@ -28,17 +25,15 @@
   * python3		* shodan
   * python3-pip		* censys
   * git			* zoomeye
-  * golang
-  *
+  * golang		* metasploit
+  * nuclei		* httprobe
 
   * Tested:
   - Kali
-
-======> Installation:
- Exe these cmd's from konsole as root from inside repo dir
-...
-  $: sudo chmod +x *.sh
-  $: sudo ./Install.sh
+  - Termux
+  
 
 
-
+======>>  TO-Do
+  * Install.sh
+  * API config script
